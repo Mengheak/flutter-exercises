@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:ui_design_lab/design/app_theme.dart';
 import 'package:ui_design_lab/screens/color_roles_screen.dart';
 import 'package:ui_design_lab/screens/dashboard_screen.dart';
+import 'package:ui_design_lab/screens/overflow_fix_demo_screen.dart';
+import 'package:ui_design_lab/screens/product/messy_product_screen.dart';
+import 'package:ui_design_lab/screens/product/product_screen.dart';
 import 'package:ui_design_lab/screens/profile_screen.dart';
 
 void main() {
@@ -33,7 +36,8 @@ class _MyAppState extends State<MyApp> {
       // home: ColorRolesScreen(
       //   onToggleBrightness: toggleBrightness,
       // ),
-      home: DashboardScreen(),
+      // home: DashboardScreen(),
+      home: OverflowFixDemoScreen()
     );
   }
 }
